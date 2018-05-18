@@ -4,11 +4,11 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-import librosa
-import librosa.display
-
 
 def description(df_training):
+    # Nb data
+    print "Number of data : " + str(df_training.shape[0])
+
     # Labels
     labels = df_training.label.unique()
     print "Number of labels : " + str(len(labels))
@@ -27,19 +27,19 @@ def description(df_training):
     plt.title("Data manually verified 0:No 1:Yes")
     plt.show()
 
-    # MFCC
-
-    for row in df_training.iterrows():
-
-        if (row[1].label == 'Knock'):
-            file_path = "/home/valentin/Téléchargements/audio_train/" + row[1].fname
-            y, sr = librosa.load(file_path)
-
-            mfccs = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=40)
-
-            plt.figure(figsize=(10, 4))
-            librosa.display.specshow(mfccs, x_axis='time')
-            plt.colorbar()
-            plt.title('MFCC')
-            plt.tight_layout()
-            plt.show()
+    # # MFCC
+    #
+    # for row in df_training.iterrows():
+    #
+    #     if (row[1].label == 'Knock'):
+    #         file_path = "/home/valentin/Téléchargements/audio_train/" + row[1].fname
+    #         y, sr = librosa.load(file_path)
+    #
+    #         mfccs = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=40)
+    #
+    #         plt.figure(figsize=(10, 4))
+    #         librosa.display.specshow(mfccs, x_axis='time')
+    #         plt.colorbar()
+    #         plt.title('MFCC')
+    #         plt.tight_layout()
+    #         plt.show()
