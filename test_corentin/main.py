@@ -8,7 +8,8 @@ tqdm.pandas()
 
 SAMPLE_RATE = 44100
 
-importMFCCFromFile = True
+importMFCCFromFile = False
+onlyManuallyVerified = False
 
 path_train_audio = "../FreeSoundData/audio_train/"
 path_test_audio = "../FreeSoundData/audio_test/"
@@ -21,7 +22,7 @@ if importMFCCFromFile:
     train_data = importCSV(path_csvfiles,"/test_corentin/train_mfcc.csv")
     test_data = importCSV(path_csvfiles,"/test_corentin/test_mfcc.csv")
 else:
-    train_data, test_data = apply_mfcc(train, path_train_audio,path_test_audio,SAMPLE_RATE)
+    train_data, test_data = apply_mfcc(train, path_train_audio,path_test_audio,SAMPLE_RATE,onlyManuallyVerified)
     toCSV(train_data,"./test_corentin","/train_mfcc.csv")
     toCSV(test_data,"./test_corentin","/test_mfcc.csv")
 

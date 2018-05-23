@@ -19,11 +19,14 @@ def get_mfcc(name, path, rate):
     b, _ = librosa.core.load(path + name, sr = rate)
     assert _ == rate
     try:
-        gmm = librosa.feature.mfcc(b, sr = rate, n_mfcc=20)
-        return pd.Series(np.hstack((np.mean(gmm, axis=1), np.std(gmm, axis=1))))
+        ft1 = librosa.feature.mfcc(b, sr = rate, n_mfcc=20)
+        ft3 = librosa.feature.spectral_rolloff(b)[0]
+        ft1_trunc = np.hstack((np.mean(ft1, axis=1), np.std(ft1, axis=1)))
+        ft3_trunc = np.hstack((np.mean(ft3), np.std(ft3)))
+        return pd.Series(np.hstack((ft1_trunc,ft3_trunc)))
     except:
         print('bad file')
-        return pd.Series([0]*40)
+        return pd.Series([0]*42)
 
 def toCSV( data, path, filename):
     data.to_csv(path+filename, index=False)
@@ -31,12 +34,15 @@ def toCSV( data, path, filename):
 def importCSV(path, filename):
     return pd.read_csv(path+filename)
 
-def apply_mfcc(trainCSV, path_train_audio,path_test_audio,rate):
+def apply_mfcc(trainCSV, path_train_audio,path_test_audio,rate,onlyManuallyVerified):
     audio_test_files = os.listdir(path_test_audio)
     train_data = pd.DataFrame()
     train_data['fname'] = trainCSV['fname']
     test_data = pd.DataFrame()
     test_data['fname'] = audio_test_files
+    if (onlyManuallyVerified):
+        train_data['manually_verified'] = trainCSV['manually_verified']
+        train_data = train_data.drop(train_data[train_data.manually_verified == 0].index)
 
     train_data = train_data['fname'].progress_apply(get_mfcc, path=path_train_audio, rate=rate)
     print('done loading train mfcc')
@@ -46,7 +52,6 @@ def apply_mfcc(trainCSV, path_train_audio,path_test_audio,rate):
     test_data['label'] = np.zeros((len(audio_test_files)))
     
     print(train_data.head())
-
     return train_data, test_data
 
 def transform_data(train_data):
@@ -68,7 +73,6 @@ def proba2labels(preds, i2c, k=3):
         idx = np.argsort(p)[::-1]
         ids.append([i for i in idx[:k]])
         ans.append(' '.join([i2c[i] for i in idx[:k]]))
-
     return ans
 
 def randomForestPredictions(X,y,test_data,i2c):
@@ -76,8 +80,7 @@ def randomForestPredictions(X,y,test_data,i2c):
            max_features='sqrt', max_leaf_nodes=None,
            min_impurity_decrease=0.0, min_impurity_split=None,
            min_samples_leaf=2, min_samples_split=8,
-           min_weight_fraction_leaf=0.0, n_estimators=200, n_jobs=-1,
-           oob_score=False, random_state=None, verbose=0, warm_start=False)
+           min_weight_fraction_leaf=0.0, n_estimators=200, n_jobs=-1, random_state=None, warm_start=False)
     printEstimation(classifier,X,y)
     return getPredictions(classifier,X,y,test_data,i2c)
 
@@ -88,7 +91,7 @@ def svmPredictions(X,y,test_data,i2c):
     return getPredictions(classifier,X,y,test_data,i2c)
 
 def neighborsPredictions(neighbors,X,y,test_data,i2c):
-    classifier = KNeighborsClassifier(n_neighbors=neighbors)
+    classifier = KNeighborsClassifier(n_neighbors=3, weights="distance", algorithm="auto", leaf_size=50, p=1, metric="minkowski", metric_params=None, n_jobs=-1)
     printEstimation(classifier,X,y)
     return getPredictions(classifier,X,y,test_data,i2c)
 
@@ -101,7 +104,6 @@ def XGBPredictions(X,y,test_data,i2c):
 def getPredictions(classifier,X,y,test_data,i2c):
     classifier.fit(X, y)
     return proba2labels(classifier.predict_proba(test_data.drop('label', axis = 1).values), i2c, k=3)
-
 
 def predictionsToCSV(predictions,path_test_audio,path,name):
     audio_test_files = os.listdir(path_test_audio)
