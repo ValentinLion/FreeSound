@@ -44,9 +44,9 @@ def getPredictions(classifier, X, y, test_data, i2c):
 
 
 def printEstimation(classifier, X, y):
-    X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=10, shuffle=True)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=10, shuffle=True)
     classifier.fit(X_train, y_train)
-    print "estimation : ", classifier.score(X_val, y_val)
+    print "estimation : ", classifier.score(X_test, y_test)
 
 
 def probaToLabels(preds, i2c, k=3):
@@ -72,3 +72,9 @@ def transformLabel(train_data):
     y = np.array([c2i[x] for x in train_data.label.values])
 
     return X, y, i2c
+
+# def seeError(classifier, X_test, y_test):
+#     y_predict = classifier.predict(X_test)
+#
+#     df_error =
+#     df_error.append()
