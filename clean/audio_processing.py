@@ -31,8 +31,8 @@ def get_mfcc(name, path, rate):
 
 
 def apply_audio_analys(df, path, rate):
-    # features_mfcc = pd.DataFrame(df['fname'].progress_apply(get_mfcc, path=path, rate=rate))
-    features_stft = pd.DataFrame(df['fname'].progress_apply(get_fft, path=path, rate=rate))
+    features_mfcc = pd.DataFrame(df['fname'].progress_apply(get_mfcc, path=path, rate=rate))
+    # features_stft = pd.DataFrame(df['fname'].progress_apply(get_fft, path=path, rate=rate))
 
     # return pd.concat([df, features_mfcc, features_stft], axis=1)
-    return pd.concat([df, features_stft], axis=1)
+    return pd.concat([df, features_mfcc], axis=1)

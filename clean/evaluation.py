@@ -1,3 +1,5 @@
+import pandas as pd
+
 import numpy as np
 from sklearn import svm
 from sklearn.ensemble import GradientBoostingClassifier
@@ -33,7 +35,7 @@ def randomForestPredictions(X, y, test_data, i2c):
                                         min_weight_fraction_leaf=0.0, n_estimators=200, n_jobs=-1,
                                         oob_score=False, random_state=None, verbose=0, warm_start=False)
 
-    printEstimation(classifier, X, y)
+    printEstimation(classifier, X, y, i2c)
     return getPredictions(classifier, X, y, test_data, i2c)
 
 
@@ -43,9 +45,10 @@ def getPredictions(classifier, X, y, test_data, i2c):
     return probaToLabels(classifier.predict_proba(test_data.drop('label', axis=1).values), i2c, k=3)
 
 
-def printEstimation(classifier, X, y):
+def printEstimation(classifier, X, y, i2c):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=10, shuffle=True)
     classifier.fit(X_train, y_train)
+    seeError(classifier, X_test, y_test, i2c)
     print "estimation : ", classifier.score(X_test, y_test)
 
 
@@ -61,6 +64,14 @@ def probaToLabels(preds, i2c, k=3):
     return ans
 
 
+def idToLabel(preds, i2c):
+    ans = []
+
+    for p in preds:
+        ans.append(i2c[p])
+
+    return ans
+
 def transformLabel(train_data):
     X = train_data.drop('label', axis=1).values
     labels = np.sort(np.unique(train_data.label.values))
@@ -73,8 +84,22 @@ def transformLabel(train_data):
 
     return X, y, i2c
 
-# def seeError(classifier, X_test, y_test):
-#     y_predict = classifier.predict(X_test)
-#
-#     df_error =
-#     df_error.append()
+
+def seeError(classifier, X_test, y_test, i2c):
+    y_predict = classifier.predict(X_test)
+
+    df_error = pd.DataFrame()
+
+    df_error["correct_answer"] = y_test
+    df_error["answer"] = y_predict
+    df_error["diff"] = df_error["correct_answer"] - df_error["answer"]
+
+    for index, ligne in enumerate(df_error["diff"]):
+        if (ligne == 0):
+            df_error = df_error.drop([index])
+
+    df_error["correct_answer"] = idToLabel(df_error["correct_answer"], i2c)
+    df_error["answer"] = idToLabel(df_error["answer"], i2c)
+    df_error = df_error.drop(["diff"], axis=1)
+
+    df_error.to_csv("error.csv", index=False)
