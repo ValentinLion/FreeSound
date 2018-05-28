@@ -1,23 +1,52 @@
-import numpy as np
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-import os
-import shutil
-
-import matplotlib
-import matplotlib.pyplot as plt
 import pandas as pd
-import wave
 
-matplotlib.style.use('ggplot')
+import audio_processing
+import description
+import evaluation
+import neural_evaluation
 
-train = pd.read_csv("../FreeSoundData/train.csv")
-test = pd.read_csv("../FreeSoundData/sample_submission.csv")
+useMFCCCSV = True
+rate = 44100
 
-path = "../FreeSoundData"
+path = "../../FreeSoundData"
 
-listLabels = pd.unique(train["label"])
-prediction = test.drop('label',1)
+path_audio_train = path+"/audio_train/"
+path_audio_test = path+"/audio_test/"
 
-prediction['label'] = prediction['fname'].apply(lambda f: listLabels[np.random.randint(0, high=listLabels.size-1)]) 
+#description.description(pd.read_csv("train.csv", sep=","))
 
-prediction.to_csv("prediction.csv", sep=',', index=False)
+if (useMFCCCSV):
+    df_dataframe = pd.read_csv("train_mfcc.csv", sep=",")
+    df_test = pd.read_csv("sample_submission_mfcc.csv", sep=",")
+
+else:
+    df_dataframe = pd.read_csv("train.csv", sep=",")
+    df_dataframe = audio_processing.apply_mfcc(df_dataframe, path_audio_train, rate)
+
+    df_dataframe.to_csv("train_mfcc.csv", sep=",")
+
+    df_test = pd.read_csv("sample_submission.csv", sep=",")
+    df_test = audio_processing.apply_mfcc(df_test, path_audio_test, rate)
+
+    df_test.to_csv("sample_submission_mfcc.csv", sep=",")
+
+df_dataframe_without_fname_manually_verified = df_dataframe.drop('fname', axis=1).drop('manually_verified', axis=1)
+df_test_without_fname = df_test.drop('fname', axis=1)
+
+df_dataframe_without_fname_manually_verified=df_dataframe_without_fname_manually_verified.iloc[:, list(range(22))]
+print(df_dataframe_without_fname_manually_verified.head())
+X, y, i2c = evaluation.transformLabel(df_dataframe_without_fname_manually_verified)
+neural_evaluation.createModel(X,y)
+"""
+preds = evaluation.randomForestPredictions(X, y, df_test_without_fname, i2c)
+
+df_submission = pd.DataFrame()
+df_submission['fname'] = df_test['fname']
+df_submission['label'] = preds
+df_submission.to_csv("submission.csv", index=False)
+
+print("Finish")
+"""

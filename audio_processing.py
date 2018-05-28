@@ -1,30 +1,30 @@
+import pandas as pd
+
 import librosa
 import numpy as np
+from sklearn import preprocessing
+from tqdm import tqdm
 
-HZ = 44100
-N_MFCC = 20
+tqdm.pandas()
 
 
-def addMFCCFromFile(df, path):
-    for i in range(0, N_MFCC):
-        df["mfcc" + str(i)] = np.nan
+def get_mfcc(name, path, rate):
+    n_mfcc = 20
 
-    index = 0
+    file, _ = librosa.core.load(path + name, sr=rate)
 
-    for row in df.iterrows():
+    if (len(file) != 0):
+        mfcc = librosa.feature.mfcc(file, sr=rate, n_mfcc=n_mfcc)
+        ft2 = librosa.feature.zero_crossing_rate(file)[0]
+        ft3 = librosa.feature.spectral_rolloff(file)[0]
+        ft4 = librosa.feature.spectral_centroid(file)[0]
+        ft5 = librosa.feature.spectral_contrast(file)[0]
+        ft6 = librosa.feature.spectral_bandwidth(file)[0]
+        return pd.Series(np.hstack((preprocessing.scale(np.mean(mfcc, axis=1)), np.mean(ft2), np.mean(ft3), np.mean(ft4), np.mean(ft5), np.mean(ft6))))
+    return pd.Series([0] * n_mfcc+5)
 
-        file_path = path + row[1].fname
-        y, _ = librosa.load(file_path)
 
-        mfcc = librosa.feature.mfcc(y=y, sr=HZ, n_mfcc=N_MFCC)
+def apply_mfcc(df, path, rate):
+    features = pd.DataFrame(df['fname'].progress_apply(get_mfcc, path=path, rate=rate))
 
-        for i in range(0, N_MFCC):
-            df.loc[index, "mfcc" + str(i)] = mfcc.item(i)
-
-        index = index + 1
-
-        print index
-
-    df.to_csv(path_or_buf="train_mfcc.csv", sep=',', index=False)
-
-    return df
+    return pd.concat([df, features], axis=1)
