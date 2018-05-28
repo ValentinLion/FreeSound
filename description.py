@@ -13,7 +13,7 @@ def description(df_training):
     labels = df_training.label.unique()
     print "Number of labels : " + str(len(labels))
 
-    # display distribution
+    # Distribution
     df_display = df_training[["fname", "label", "manually_verified"]]
 
     category_group = df_display.groupby(['label', 'manually_verified']).count()
@@ -22,7 +22,6 @@ def description(df_training):
     plot.set_xlabel("Type")
     plot.set_ylabel("Nombre")
     plt.show()
-
 
     # Missing data
     missing_data = df_training.isnull().sum().sort_values(ascending=False)
