@@ -4,7 +4,6 @@
 import pandas as pd
 
 import audio_processing
-import description
 import evaluation
 
 useAudioAnalysCSV = False
