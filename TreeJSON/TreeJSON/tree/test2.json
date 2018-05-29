@@ -1,0 +1,633 @@
+{ "name": "Ontology 100%", "children": [{
+ "name": "Water 0%", "children": [{"name": "Rain 0%"},{"name": "Stream 0%"},{"name": "Waterfall 0%"},{"name": "Ocean 0%"},{"name": "Steam 0%"},{"name": "Gurgling 0%"}]},{
+ "name": "Wind 0%", "children": [{"name": "Howl (wind) 0%"},{"name": "Rustling leaves 0%"},{"name": "Wind noise (microphone) 0%"}]},{
+ "name": "Cheering 0%", "children": []},{
+ "name": "Tender music 0%", "children": []},{
+ "name": "Pulleys 0%", "children": []},{
+ "name": "Ambient music 0%", "children": [{"name": "Drone music 0%"}]},{
+ "name": "Cumbia 0%", "children": []},{
+ "name": "Funny music 0%", "children": []},{
+ "name": "Clock 0%", "children": [{"name": "Tick 0%"},{"name": "Tick-tock 0%"}]},{
+ "name": "Electric guitar 0%", "children": []},{
+ "name": "Grunt 0%", "children": []},{
+ "name": "Shatter 3.1668954 %", "children": []},{
+ "name": "Church bell 0%", "children": []},{
+ "name": "Microwave oven 0%", "children": []},{
+ "name": "Bee, wasp, etc. 0%", "children": [{"name": "Buzz 0%"}]},{
+ "name": "Ukulele 0%", "children": []},{
+ "name": "Arrow 0%", "children": [{"name": "Whoosh, swoosh, swish 0%"},{"name": "Thump, thud 0%"},{"name": "Wobble 0%"}]},{
+ "name": "Rumble 0%", "children": []},{
+ "name": "A capella 0%", "children": []},{
+ "name": "Harmony 0%", "children": []},{
+ "name": "Respiratory sounds 0%", "children": [{"name": "Breathing 0%"},{"name": "Cough null %"},{"name": "Sneeze 0%"},{"name": "Sniff 0%"}]},{
+ "name": "Bellow 0%", "children": []},{
+ "name": "String section 0%", "children": []},{
+ "name": "Clunk 0%", "children": []},{
+ "name": "Trance music 0%", "children": []},{
+ "name": "Frying (food) 0%", "children": []},{
+ "name": "Headphones 0%", "children": []},{
+ "name": "Pigeon, dove 0%", "children": [{"name": "Coo 0%"}]},{
+ "name": "Ding-dong 0%", "children": []},{
+ "name": "Trickle, dribble 0%", "children": []},{
+ "name": "UK garage 0%", "children": []},{
+ "name": "House music 0%", "children": []},{
+ "name": "Inside, public space 0%", "children": []},{
+ "name": "Packing tape, duct tape 0%", "children": []},{
+ "name": "Slam 0%", "children": []},{
+ "name": "Bassoon 0%", "children": []},{
+ "name": "Sawing 0%", "children": []},{
+ "name": "Fill (with liquid) 0%", "children": []},{
+ "name": "Spray 0%", "children": []},{
+ "name": "Male speech, man speaking 0%", "children": []},{
+ "name": "Electronic dance music 0%", "children": []},{
+ "name": "Jingle bell 0%", "children": []},{
+ "name": "Rowboat, canoe, kayak 0%", "children": []},{
+ "name": "Ocean 0%", "children": [{"name": "Waves, surf 0%"}]},{
+ "name": "Nicker 0%", "children": []},{
+ "name": "Source-ambiguous sounds 0%", "children": [{"name": "Generic impact sounds 0%"},{"name": "Surface contact 0%"},{"name": "Deformable shell 0%"},{"name": "Onomatopoeia 0%"},{"name": "Silence 0%"},{"name": "Other sourceless 0%"}]},{
+ "name": "Motorcycle 0%", "children": []},{
+ "name": "Wheeze 0%", "children": []},{
+ "name": "Railroad car, train wagon 0%", "children": []},{
+ "name": "Shuffle 0%", "children": []},{
+ "name": "Cellphone buzz, vibrating alert 0%", "children": []},{
+ "name": "Artillery fire 0%", "children": []},{
+ "name": "Classical music 0%", "children": [{"name": "Opera 0%"}]},{
+ "name": "Jet engine 0%", "children": []},{
+ "name": "Power windows, electric windows 0%", "children": []},{
+ "name": "Dental drill, dentist's drill 0%", "children": []},{
+ "name": "Television 0%", "children": []},{
+ "name": "Sad music 0%", "children": []},{
+ "name": "Reggae 0%", "children": [{"name": "Dub 0%"}]},{
+ "name": "Shout 0%", "children": [{"name": "Bellow 0%"},{"name": "Whoop 0%"},{"name": "Yell 0%"},{"name": "Battle cry 0%"},{"name": "Children shouting 0%"}]},{
+ "name": "Deformable shell 0%", "children": [{"name": "Crushing 0%"},{"name": "Crumpling, crinkling 0%"},{"name": "Tearing null %"}]},{
+ "name": "Fart 3.1668954 %", "children": []},{
+ "name": "Rhythm and blues 0%", "children": []},{
+ "name": "Environmental noise 0%", "children": []},{
+ "name": "Twang 0%", "children": []},{
+ "name": "Soul music 0%", "children": []},{
+ "name": "Dishes, pots, and pans 0%", "children": []},{
+ "name": "Cowbell 2.0162568 %", "children": []},{
+ "name": "Jingle (music) 0%", "children": []},{
+ "name": "Growling 0%", "children": []},{
+ "name": "Whimper (dog) 0%", "children": []},{
+ "name": "Vehicle 0%", "children": [{"name": "Boat, Water vehicle 0%"},{"name": "Motor vehicle (road) 0%"},{"name": "Rail transport 0%"},{"name": "Aircraft 0%"},{"name": "Non-motorized land vehicle 0%"}]},{
+ "name": "Whistling 0%", "children": [{"name": "Wolf-whistling 0%"}]},{
+ "name": "Whimper 0%", "children": []},{
+ "name": "Miscellaneous sources 0%", "children": [{"name": "Sonar 0%"},{"name": "Duck call (hunting tool) 0%"},{"name": "Arrow 0%"},{"name": "Sound equipment 0%"}]},{
+ "name": "Camera 0%", "children": [{"name": "Single-lens reflex camera 0%"}]},{
+ "name": "Saxophone 3.1668954 %", "children": [{"name": "Alto saxophone 0%"},{"name": "Soprano saxophone 0%"}]},{
+ "name": "Clicking 0%", "children": [{"name": "Tick 0%"},{"name": "Clip-clop 0%"},{"name": "Clickety-clack 0%"}]},{
+ "name": "Middle Eastern music 0%", "children": []},{
+ "name": "Bowed string instrument 0%", "children": [{"name": "String section 0%"},{"name": "Violin, fiddle 0%"},{"name": "Cello null %"},{"name": "Double bass 0%"}]},{
+ "name": "Drawer open or close 0%", "children": []},{
+ "name": "Onomatopoeia 0%", "children": [{"name": "Brief tone 0%"},{"name": "Hiss 0%"},{"name": "Creak 0%"},{"name": "Rattle 0%"},{"name": "Whoosh, swoosh, swish 0%"},{"name": "Rustle 0%"},{"name": "Whir 0%"},{"name": "Clatter 0%"},{"name": "Sizzle 0%"},{"name": "Clicking 0%"},{"name": "Rumble 0%"},{"name": "Blare 0%"},{"name": "Plop 0%"},{"name": "Jingle, tinkle 0%"},{"name": "Fizz 0%"},{"name": "Puff 0%"},{"name": "Hum 0%"},{"name": "Squish 0%"},{"name": "Zing 0%"},{"name": "Boing 0%"},{"name": "Crackle 0%"},{"name": "Crunch 0%"},{"name": "Crack 0%"},{"name": "Snap 0%"}]},{
+ "name": "Bouncing 0%", "children": []},{
+ "name": "Strum 0%", "children": []},{
+ "name": "Chant 0%", "children": [{"name": "Mantra 0%"}]},{
+ "name": "Shuffling cards 0%", "children": []},{
+ "name": "Thunderstorm 0%", "children": [{"name": "Thunder 0%"}]},{
+ "name": "Smash, crash 0%", "children": []},{
+ "name": "Gears 0%", "children": []},{
+ "name": "Applause 3.1668954 %", "children": []},{
+ "name": "Roll 0%", "children": []},{
+ "name": "Rail transport 0%", "children": [{"name": "Train 0%"},{"name": "Railroad car, train wagon 0%"},{"name": "Train wheels squealing 0%"},{"name": "Subway, metro, underground 0%"}]},{
+ "name": "Bird 0%", "children": [{"name": "Bird vocalization, bird call, bird song 0%"},{"name": "Pigeon, dove 0%"},{"name": "Crow 0%"},{"name": "Owl 0%"},{"name": "Gull, seagull 0%"},{"name": "Bird flight, flapping wings 0%"}]},{
+ "name": "Funk carioca 0%", "children": []},{
+ "name": "Lullaby 0%", "children": []},{
+ "name": "Rattle (instrument) 0%", "children": [{"name": "Maraca 0%"}]},{
+ "name": "Birthday music 0%", "children": []},{
+ "name": "Belly laugh 0%", "children": []},{
+ "name": "Chipmunk 0%", "children": []},{
+ "name": "Wildfire 0%", "children": []},{
+ "name": "Choir 0%", "children": []},{
+ "name": "Vehicle horn, car horn, honking 0%", "children": [{"name": "Toot 0%"}]},{
+ "name": "Scratch 0%", "children": []},{
+ "name": "Pour 0%", "children": [{"name": "Trickle, dribble 0%"},{"name": "Gush 0%"}]},{
+ "name": "Plop 0%", "children": []},{
+ "name": "Crackle 0%", "children": []},{
+ "name": "Firecracker 0%", "children": []},{
+ "name": "Knock 2.9452126 %", "children": []},{
+ "name": "Gong 3.082445 %", "children": []},{
+ "name": "Hum 0%", "children": []},{
+ "name": "Electric shaver, electric razor 0%", "children": []},{
+ "name": "Vibration 0%", "children": []},{
+ "name": "Train wheels squealing 0%", "children": []},{
+ "name": "Crying, sobbing 0%", "children": [{"name": "Baby cry, infant cry 0%"},{"name": "Whimper 0%"}]},{
+ "name": "Goose 0%", "children": [{"name": "Honk 0%"}]},{
+ "name": "Ska 0%", "children": []},{
+ "name": "Truck 0%", "children": [{"name": "Air brake 0%"},{"name": "Air horn, truck horn 0%"},{"name": "Reversing beeps 0%"},{"name": "Ice cream truck, ice cream van 0%"}]},{
+ "name": "Background music 0%", "children": []},{
+ "name": "Music mood 0%", "children": [{"name": "Happy music 0%"},{"name": "Funny music 0%"},{"name": "Sad music 0%"},{"name": "Tender music 0%"},{"name": "Exciting music 0%"},{"name": "Angry music 0%"},{"name": "Scary music 0%"}]},{
+ "name": "Punk rock 0%", "children": []},{
+ "name": "Exciting music 0%", "children": []},{
+ "name": "Bicycle 0%", "children": [{"name": "Bicycle bell 0%"}]},{
+ "name": "Rock and roll 0%", "children": []},{
+ "name": "Blues 0%", "children": []},{
+ "name": "Heavy metal 0%", "children": []},{
+ "name": "Chirp tone 0%", "children": []},{
+ "name": "Progressive rock 0%", "children": []},{
+ "name": "Cello 3.1668954 %", "children": []},{
+ "name": "Mouse 0%", "children": []},{
+ "name": "Bagpipes 0%", "children": []},{
+ "name": "Mains hum 0%", "children": []},{
+ "name": "Scissors 1.0028502 %", "children": []},{
+ "name": "Gasp 0%", "children": []},{
+ "name": "Duck 0%", "children": [{"name": "Quack 0%"}]},{
+ "name": "Wail, moan 0%", "children": []},{
+ "name": "Chopping (food) 0%", "children": []},{
+ "name": "Non-motorized land vehicle 0%", "children": [{"name": "Bicycle 0%"},{"name": "Skateboard 0%"}]},{
+ "name": "Drum machine 0%", "children": []},{
+ "name": "Harmonic 0%", "children": []},{
+ "name": "Sound reproduction 0%", "children": [{"name": "Television 0%"},{"name": "Radio 0%"},{"name": "Loudspeaker 0%"},{"name": "Headphones 0%"},{"name": "Recording 0%"},{"name": "Gramophone record 0%"},{"name": "Compact disc 0%"},{"name": "MP3 0%"}]},{
+ "name": "Surface contact 0%", "children": [{"name": "Scratch 0%"},{"name": "Scrape 0%"},{"name": "Rub 0%"},{"name": "Roll 0%"},{"name": "Grind 0%"}]},{
+ "name": "Hubbub, speech noise, speech babble 0%", "children": []},{
+ "name": "Throbbing 0%", "children": []},{
+ "name": "Whoop 0%", "children": []},{
+ "name": "Honk 0%", "children": []},{
+ "name": "Coin (dropping) 0%", "children": []},{
+ "name": "Chop 0%", "children": []},{
+ "name": "Heart sounds, heartbeat 0%", "children": [{"name": "Heart murmur 0%"}]},{
+ "name": "Drone 0%", "children": []},{
+ "name": "Skateboard 0%", "children": []},{
+ "name": "Heart murmur 0%", "children": []},{
+ "name": "Thunk 0%", "children": []},{
+ "name": "Flamenco 0%", "children": []},{
+ "name": "Song 0%", "children": []},{
+ "name": "Oink 0%", "children": []},{
+ "name": "Crumpling, crinkling 0%", "children": []},{
+ "name": "Bugle 0%", "children": []},{
+ "name": "White noise 0%", "children": []},{
+ "name": "Wind instrument, woodwind instrument 0%", "children": [{"name": "Flute null %"},{"name": "Saxophone null %"},{"name": "Clarinet null %"},{"name": "Oboe null %"},{"name": "Bassoon 0%"}]},{
+ "name": "Reversing beeps 0%", "children": []},{
+ "name": "Specific impact sounds 0%", "children": [{"name": "Basketball bounce 0%"}]},{
+ "name": "Foghorn 0%", "children": []},{
+ "name": "Narration, monologue 0%", "children": []},{
+ "name": "Bird flight, flapping wings 0%", "children": []},{
+ "name": "Dog 0%", "children": [{"name": "Bark null %"},{"name": "Yip 0%"},{"name": "Howl 0%"},{"name": "Bow-wow 0%"},{"name": "Growling 0%"},{"name": "Whimper (dog) 0%"},{"name": "Bay 0%"}]},{
+ "name": "Crunch 0%", "children": []},{
+ "name": "Busy signal 0%", "children": []},{
+ "name": "Computer keyboard 0%", "children": []},{
+ "name": "Soundtrack music 0%", "children": []},{
+ "name": "Caterwaul 0%", "children": []},{
+ "name": "Gramophone record 0%", "children": []},{
+ "name": "Otoacoustic emission 0%", "children": [{"name": "Tinnitus, ringing in the ears 0%"}]},{
+ "name": "Walk, footsteps 0%", "children": []},{
+ "name": "Boiling 0%", "children": []},{
+ "name": "Whispering 0%", "children": []},{
+ "name": "Tuning fork 0%", "children": []},{
+ "name": "Snoring 0%", "children": []},{
+ "name": "Slosh 0%", "children": []},{
+ "name": "Chirp, tweet 0%", "children": []},{
+ "name": "Scratching (performance technique) 0%", "children": []},{
+ "name": "Drum roll 0%", "children": []},{
+ "name": "Snicker 0%", "children": []},{
+ "name": "Hair dryer 0%", "children": []},{
+ "name": "Harp 0%", "children": []},{
+ "name": "Velcro, hook and loop fastener 0%", "children": []},{
+ "name": "Bell 0%", "children": [{"name": "Church bell 0%"},{"name": "Cowbell null %"},{"name": "Jingle bell 0%"},{"name": "Bicycle bell 0%"},{"name": "Tuning fork 0%"},{"name": "Chime null %"},{"name": "Change ringing (campanology) 0%"}]},{
+ "name": "Train 0%", "children": [{"name": "Train whistle 0%"},{"name": "Train horn 0%"}]},{
+ "name": "Ding 0%", "children": []},{
+ "name": "Musical instrument 0%", "children": [{"name": "Plucked string instrument 0%"},{"name": "Keyboard (musical) 0%"},{"name": "Percussion 0%"},{"name": "Orchestra 0%"},{"name": "Brass instrument 0%"},{"name": "Bowed string instrument 0%"},{"name": "Wind instrument, woodwind instrument 0%"},{"name": "Harp 0%"},{"name": "Choir 0%"},{"name": "Bell 0%"},{"name": "Harmonica null %"},{"name": "Accordion 0%"},{"name": "Bagpipes 0%"},{"name": "Didgeridoo 0%"},{"name": "Shofar 0%"},{"name": "Theremin 0%"},{"name": "Singing bowl 0%"},{"name": "Musical ensemble 0%"},{"name": "Bass (instrument role) 0%"},{"name": "Scratching (performance technique) 0%"}]},{
+ "name": "Throat clearing 0%", "children": []},{
+ "name": "Wolf-whistling 0%", "children": []},{
+ "name": "Biting 0%", "children": []},{
+ "name": "Distortion 0%", "children": []},{
+ "name": "Babbling 0%", "children": []},{
+ "name": "Traditional music 0%", "children": []},{
+ "name": "Conversation 0%", "children": []},{
+ "name": "Rapping 0%", "children": []},{
+ "name": "Chainsaw 0%", "children": []},{
+ "name": "Heavy engine (low frequency) 0%", "children": []},{
+ "name": "Cacophony 0%", "children": []},{
+ "name": "Clavinet 0%", "children": []},{
+ "name": "Female speech, woman speaking 0%", "children": []},{
+ "name": "Gunshot, gunfire 0%", "children": [{"name": "Machine gun 0%"},{"name": "Fusillade 0%"},{"name": "Artillery fire 0%"},{"name": "Cap gun 0%"}]},{
+ "name": "French horn 0%", "children": []},{
+ "name": "Clip-clop 0%", "children": []},{
+ "name": "Fireworks 3.1668954 %", "children": [{"name": "Firecracker 0%"}]},{
+ "name": "Fowl 0%", "children": [{"name": "Chicken, rooster 0%"},{"name": "Turkey 0%"},{"name": "Duck 0%"},{"name": "Goose 0%"}]},{
+ "name": "Fire alarm 0%", "children": []},{
+ "name": "Zing 0%", "children": []},{
+ "name": "Coo 0%", "children": []},{
+ "name": "Single-lens reflex camera 0%", "children": []},{
+ "name": "Smoke detector, smoke alarm 0%", "children": []},{
+ "name": "Tools 0%", "children": [{"name": "Hammer 0%"},{"name": "Jackhammer 0%"},{"name": "Sawing 0%"},{"name": "Filing (rasp) 0%"},{"name": "Sanding 0%"},{"name": "Power tool 0%"}]},{
+ "name": "Music role 0%", "children": [{"name": "Background music 0%"},{"name": "Theme music 0%"},{"name": "Jingle (music) 0%"},{"name": "Soundtrack music 0%"},{"name": "Lullaby 0%"},{"name": "Video game music 0%"},{"name": "Christmas music 0%"},{"name": "Dance music 0%"},{"name": "Wedding music 0%"},{"name": "Birthday music 0%"}]},{
+ "name": "Bluegrass 0%", "children": []},{
+ "name": "Tambourine 2.3329463 %", "children": []},{
+ "name": "Sliding door 0%", "children": []},{
+ "name": "Hoot 0%", "children": []},{
+ "name": "Pig 0%", "children": [{"name": "Oink 0%"}]},{
+ "name": "Telephone bell ringing 0%", "children": []},{
+ "name": "Livestock, farm animals, working animals 0%", "children": [{"name": "Horse 0%"},{"name": "Donkey, ass 0%"},{"name": "Cattle, bovinae 0%"},{"name": "Pig 0%"},{"name": "Goat 0%"},{"name": "Sheep 0%"},{"name": "Fowl 0%"}]},{
+ "name": "Keyboard (musical) 0%", "children": [{"name": "Piano 0%"},{"name": "Organ 0%"},{"name": "Synthesizer 0%"},{"name": "Harpsichord 0%"}]},{
+ "name": "Electronic organ 0%", "children": []},{
+ "name": "Bleat 0%", "children": []},{
+ "name": "Electronic music 0%", "children": [{"name": "House music 0%"},{"name": "Techno 0%"},{"name": "Dubstep 0%"},{"name": "Electro 0%"},{"name": "Drum and bass 0%"},{"name": "Electronica 0%"},{"name": "Electronic dance music 0%"},{"name": "Ambient music 0%"},{"name": "Trance music 0%"},{"name": "Noise music 0%"},{"name": "UK garage 0%"}]},{
+ "name": "Giggle 0%", "children": []},{
+ "name": "Digestive 0%", "children": [{"name": "Chewing, mastication 0%"},{"name": "Biting 0%"},{"name": "Gargling 0%"},{"name": "Stomach rumble 0%"},{"name": "Burping, eructation 0%"},{"name": "Hiccup 0%"},{"name": "Fart null %"}]},{
+ "name": "Aircraft engine 0%", "children": [{"name": "Jet engine 0%"},{"name": "Propeller, airscrew 0%"}]},{
+ "name": "Bassline 0%", "children": []},{
+ "name": "Organ 0%", "children": [{"name": "Electronic organ 0%"},{"name": "Hammond organ 0%"}]},{
+ "name": "Kuduro 0%", "children": []},{
+ "name": "Puff 0%", "children": []},{
+ "name": "Inside, small room 0%", "children": []},{
+ "name": "Meow 1.6362293 %", "children": []},{
+ "name": "Chorus effect 0%", "children": []},{
+ "name": "Yell 0%", "children": []},{
+ "name": "Background noise 0%", "children": [{"name": "Environmental noise 0%"},{"name": "Tape hiss 0%"},{"name": "Static 0%"},{"name": "Mains hum 0%"},{"name": "Distortion 0%"},{"name": "Sidetone 0%"}]},{
+ "name": "Compact disc 0%", "children": []},{
+ "name": "Propeller, airscrew 0%", "children": []},{
+ "name": "Musical concepts 0%", "children": [{"name": "Song 0%"},{"name": "Melody 0%"},{"name": "Musical note 0%"},{"name": "Beat 0%"},{"name": "Chord 0%"},{"name": "Harmony 0%"},{"name": "Bassline 0%"},{"name": "Loop 0%"},{"name": "Drone 0%"}]},{
+ "name": "Christmas music 0%", "children": []},{
+ "name": "Cluck 0%", "children": []},{
+ "name": "Roaring cats (lions, tigers) 0%", "children": [{"name": "Roar 0%"},{"name": "Growling 0%"}]},{
+ "name": "Scary music 0%", "children": []},{
+ "name": "Electronica 0%", "children": []},{
+ "name": "Tick 0%", "children": []},{
+ "name": "Sounds of things 0%", "children": [{"name": "Vehicle 0%"},{"name": "Engine 0%"},{"name": "Domestic sounds, home sounds 0%"},{"name": "Bell 0%"},{"name": "Alarm 0%"},{"name": "Mechanisms 0%"},{"name": "Tools 0%"},{"name": "Explosion 0%"},{"name": "Wood 0%"},{"name": "Glass 0%"},{"name": "Liquid 0%"},{"name": "Miscellaneous sources 0%"},{"name": "Specific impact sounds 0%"}]},{
+ "name": "Rhodes piano 0%", "children": []},{
+ "name": "Engine 0%", "children": [{"name": "Light engine (high frequency) 0%"},{"name": "Medium engine (mid frequency) 0%"},{"name": "Heavy engine (low frequency) 0%"},{"name": "Jet engine 0%"},{"name": "Engine knocking 0%"},{"name": "Engine starting 0%"},{"name": "Idling 0%"},{"name": "Accelerating, revving, vroom 0%"}]},{
+ "name": "Scrape 0%", "children": []},{
+ "name": "Telephone dialing, DTMF 0%", "children": []},{
+ "name": "Tapping (guitar technique) 0%", "children": []},{
+ "name": "Explosion 0%", "children": [{"name": "Gunshot, gunfire 0%"},{"name": "Fireworks null %"},{"name": "Burst, pop 0%"},{"name": "Eruption 0%"},{"name": "Boom 0%"}]},{
+ "name": "Jingle, tinkle 0%", "children": []},{
+ "name": "Buzzer 0%", "children": []},{
+ "name": "Synthetic singing 0%", "children": []},{
+ "name": "Lawn mower 0%", "children": []},{
+ "name": "Stomach rumble 0%", "children": []},{
+ "name": "Sitar 0%", "children": []},{
+ "name": "Beatboxing 0%", "children": []},{
+ "name": "Splinter 0%", "children": []},{
+ "name": "Rain on surface 0%", "children": []},{
+ "name": "Piano 0%", "children": [{"name": "Electric piano 0%"}]},{
+ "name": "Gobble 0%", "children": []},{
+ "name": "Acoustic guitar 0%", "children": []},{
+ "name": "Police car (siren) 0%", "children": []},{
+ "name": "Sampler 0%", "children": []},{
+ "name": "Ping 0%", "children": []},{
+ "name": "Laughter 3.1668954 %", "children": [{"name": "Baby laughter 0%"},{"name": "Giggle 0%"},{"name": "Snicker 0%"},{"name": "Belly laugh 0%"},{"name": "Chuckle, chortle 0%"}]},{
+ "name": "Traffic noise, roadway noise 0%", "children": []},{
+ "name": "Outside, urban or manmade 0%", "children": []},{
+ "name": "Breathing 0%", "children": [{"name": "Wheeze 0%"},{"name": "Snoring 0%"},{"name": "Gasp 0%"},{"name": "Pant 0%"},{"name": "Snort 0%"}]},{
+ "name": "Finger snapping 0%", "children": []},{
+ "name": "Trombone 0%", "children": []},{
+ "name": "Microphone 0%", "children": [{"name": "Wind noise (microphone) 0%"}]},{
+ "name": "Telephone 1.2667582 %", "children": [{"name": "Telephone bell ringing 0%"},{"name": "Ringtone 0%"},{"name": "Cellphone buzz, vibrating alert 0%"},{"name": "Telephone dialing, DTMF 0%"},{"name": "Dial tone 0%"},{"name": "Busy signal 0%"}]},{
+ "name": "Squawk 0%", "children": []},{
+ "name": "Dub 0%", "children": []},{
+ "name": "Steel guitar, slide guitar 0%", "children": []},{
+ "name": "Harmonica 1.7417924 %", "children": []},{
+ "name": "Wedding music 0%", "children": []},{
+ "name": "Tinnitus, ringing in the ears 0%", "children": []},{
+ "name": "Canidae, dogs, wolves 0%", "children": [{"name": "Howl 0%"},{"name": "Growling 0%"}]},{
+ "name": "Neigh, whinny 0%", "children": []},{
+ "name": "Acoustic environment 0%", "children": [{"name": "Inside, small room 0%"},{"name": "Inside, large room or hall 0%"},{"name": "Inside, public space 0%"},{"name": "Outside, urban or manmade 0%"},{"name": "Outside, rural or natural 0%"},{"name": "Reverberation 0%"},{"name": "Echo 0%"}]},{
+ "name": "Synthesizer 0%", "children": [{"name": "Sampler 0%"},{"name": "Mellotron 0%"}]},{
+ "name": "Other sourceless 0%", "children": [{"name": "Sine wave 0%"},{"name": "Sound effect 0%"},{"name": "Pulse 0%"},{"name": "Infrasound 0%"},{"name": "Bass (frequency range) 0%"},{"name": "Ringing (of resonator) 0%"}]},{
+ "name": "Outside, rural or natural 0%", "children": []},{
+ "name": "Hands 0%", "children": [{"name": "Finger snapping 0%"},{"name": "Clapping 0%"}]},{
+ "name": "Folk music 0%", "children": []},{
+ "name": "Change ringing (campanology) 0%", "children": []},{
+ "name": "Domestic sounds, home sounds 0%", "children": [{"name": "Door 0%"},{"name": "Cupboard open or close 0%"},{"name": "Drawer open or close 0%"},{"name": "Dishes, pots, and pans 0%"},{"name": "Cutlery, silverware 0%"},{"name": "Chopping (food) 0%"},{"name": "Frying (food) 0%"},{"name": "Microwave oven 0%"},{"name": "Blender 0%"},{"name": "Kettle whistle 0%"},{"name": "Water tap, faucet 0%"},{"name": "Sink (filling or washing) 0%"},{"name": "Bathtub (filling or washing) 0%"},{"name": "Hair dryer 0%"},{"name": "Toilet flush 0%"},{"name": "Toothbrush 0%"},{"name": "Vacuum cleaner 0%"},{"name": "Zipper (clothing) 0%"},{"name": "Velcro, hook and loop fastener 0%"},{"name": "Keys jangling 0%"},{"name": "Coin (dropping) 0%"},{"name": "Packing tape, duct tape 0%"},{"name": "Scissors null %"},{"name": "Electric shaver, electric razor 0%"},{"name": "Shuffling cards 0%"},{"name": "Typing 0%"},{"name": "Writing null %"}]},{
+ "name": "Snake 0%", "children": [{"name": "Hiss 0%"},{"name": "Rattle 0%"}]},{
+ "name": "Sonar 0%", "children": []},{
+ "name": "Toot 0%", "children": []},{
+ "name": "Ringtone 0%", "children": []},{
+ "name": "Waves, surf 0%", "children": []},{
+ "name": "Medium engine (mid frequency) 0%", "children": []},{
+ "name": "Sigh 0%", "children": []},{
+ "name": "Booing 0%", "children": []},{
+ "name": "Vocal music 0%", "children": [{"name": "A capella 0%"},{"name": "Chant 0%"},{"name": "Beatboxing 0%"}]},{
+ "name": "Train whistle 0%", "children": []},{
+ "name": "Sonic boom 0%", "children": []},{
+ "name": "Hip hop music 0%", "children": [{"name": "Grime music 0%"},{"name": "Trap music 0%"},{"name": "Beatboxing 0%"}]},{
+ "name": "Idling 0%", "children": []},{
+ "name": "Blender 0%", "children": []},{
+ "name": "Steam 0%", "children": [{"name": "Hiss 0%"}]},{
+ "name": "Alarm 0%", "children": [{"name": "Telephone null %"},{"name": "Alarm clock 0%"},{"name": "Siren 0%"},{"name": "Doorbell 0%"},{"name": "Buzzer 0%"},{"name": "Smoke detector, smoke alarm 0%"},{"name": "Fire alarm 0%"},{"name": "Car alarm 0%"},{"name": "Vehicle horn, car horn, honking 0%"},{"name": "Bicycle bell 0%"},{"name": "Air horn, truck horn 0%"},{"name": "Foghorn 0%"},{"name": "Whistle 0%"}]},{
+ "name": "Sheep 0%", "children": [{"name": "Bleat 0%"}]},{
+ "name": "Infrasound 0%", "children": []},{
+ "name": "Psychedelic rock 0%", "children": []},{
+ "name": "Ambulance (siren) 0%", "children": []},{
+ "name": "Jackhammer 0%", "children": []},{
+ "name": "Aircraft 0%", "children": [{"name": "Aircraft engine 0%"},{"name": "Helicopter 0%"},{"name": "Fixed-wing aircraft, airplane 0%"}]},{
+ "name": "Car alarm 0%", "children": []},{
+ "name": "Light engine (high frequency) 0%", "children": [{"name": "Dental drill, dentist's drill 0%"},{"name": "Lawn mower 0%"},{"name": "Chainsaw 0%"}]},{
+ "name": "Skidding 0%", "children": []},{
+ "name": "Cutlery, silverware 0%", "children": []},{
+ "name": "Violin, fiddle 0%", "children": [{"name": "Pizzicato 0%"}]},{
+ "name": "Natural sounds 0%", "children": [{"name": "Wind 0%"},{"name": "Thunderstorm 0%"},{"name": "Water 0%"},{"name": "Fire 0%"}]},{
+ "name": "Screech 0%", "children": []},{
+ "name": "Wobble 0%", "children": []},{
+ "name": "Croak 0%", "children": []},{
+ "name": "Male singing 0%", "children": []},{
+ "name": "Bass guitar 0%", "children": []},{
+ "name": "Burping, eructation 0%", "children": []},{
+ "name": "Electric piano 0%", "children": [{"name": "Clavinet 0%"},{"name": "Rhodes piano 0%"}]},{
+ "name": "Noise music 0%", "children": []},{
+ "name": "Wood block 0%", "children": []},{
+ "name": "Human group actions 0%", "children": [{"name": "Clapping 0%"},{"name": "Cheering 0%"},{"name": "Applause null %"},{"name": "Chatter 0%"},{"name": "Crowd 0%"},{"name": "Hubbub, speech noise, speech babble 0%"},{"name": "Booing 0%"},{"name": "Children playing 0%"},{"name": "Children shouting 0%"}]},{
+ "name": "Howl 0%", "children": []},{
+ "name": "Mechanisms 0%", "children": [{"name": "Ratchet, pawl 0%"},{"name": "Clock 0%"},{"name": "Gears 0%"},{"name": "Pulleys 0%"},{"name": "Sewing machine 0%"},{"name": "Mechanical fan 0%"},{"name": "Air conditioning 0%"},{"name": "Cash register 0%"},{"name": "Printer 0%"},{"name": "Camera 0%"}]},{
+ "name": "Electric toothbrush 0%", "children": []},{
+ "name": "Orchestra 0%", "children": []},{
+ "name": "Squeal 0%", "children": []},{
+ "name": "Squeak 3.1668954 %", "children": []},{
+ "name": "Whack, thwack 0%", "children": []},{
+ "name": "Tick-tock 0%", "children": []},{
+ "name": "Gargling 0%", "children": []},{
+ "name": "Wild animals 0%", "children": [{"name": "Roaring cats (lions, tigers) 0%"},{"name": "Bird 0%"},{"name": "Canidae, dogs, wolves 0%"},{"name": "Rodents, rats, mice 0%"},{"name": "Insect 0%"},{"name": "Frog 0%"},{"name": "Snake 0%"},{"name": "Whale vocalization 0%"}]},{
+ "name": "Music of Africa 0%", "children": [{"name": "Afrobeat 0%"},{"name": "Kwaito 0%"}]},{
+ "name": "Subway, metro, underground 0%", "children": []},{
+ "name": "Melody 0%", "children": []},{
+ "name": "Clatter 0%", "children": []},{
+ "name": "Train horn 0%", "children": []},{
+ "name": "Sine wave 0%", "children": [{"name": "Harmonic 0%"},{"name": "Chirp tone 0%"}]},{
+ "name": "Bass (frequency range) 0%", "children": []},{
+ "name": "Yak 0%", "children": []},{
+ "name": "Waterfall 0%", "children": []},{
+ "name": "Cash register 0%", "children": []},{
+ "name": "Bang 0%", "children": []},{
+ "name": "Independent music 0%", "children": []},{
+ "name": "Sniff 0%", "children": []},{
+ "name": "Mandolin 0%", "children": []},{
+ "name": "Drum beat 0%", "children": []},{
+ "name": "Power tool 0%", "children": [{"name": "Drill 0%"}]},{
+ "name": "Snort 0%", "children": []},{
+ "name": "Speech synthesizer 0%", "children": []},{
+ "name": "Doorbell 0%", "children": [{"name": "Ding-dong 0%"}]},{
+ "name": "Inside, large room or hall 0%", "children": []},{
+ "name": "Toilet flush 0%", "children": []},{
+ "name": "Music genre 0%", "children": [{"name": "Pop music 0%"},{"name": "Hip hop music 0%"},{"name": "Rock music 0%"},{"name": "Rhythm and blues 0%"},{"name": "Soul music 0%"},{"name": "Reggae 0%"},{"name": "Country 0%"},{"name": "Funk 0%"},{"name": "Folk music 0%"},{"name": "Middle Eastern music 0%"},{"name": "Jazz 0%"},{"name": "Disco 0%"},{"name": "Classical music 0%"},{"name": "Electronic music 0%"},{"name": "Music of Latin America 0%"},{"name": "Blues 0%"},{"name": "Music for children 0%"},{"name": "New-age music 0%"},{"name": "Vocal music 0%"},{"name": "Music of Africa 0%"},{"name": "Christian music 0%"},{"name": "Music of Asia 0%"},{"name": "Ska 0%"},{"name": "Traditional music 0%"},{"name": "Independent music 0%"}]},{
+ "name": "Race car, auto racing 0%", "children": []},{
+ "name": "Music of Bollywood 0%", "children": []},{
+ "name": "Rub 0%", "children": []},{
+ "name": "Toothbrush 0%", "children": [{"name": "Electric toothbrush 0%"}]},{
+ "name": "Accelerating, revving, vroom 0%", "children": []},{
+ "name": "Air conditioning 0%", "children": []},{
+ "name": "Bus 1.1506387 %", "children": []},{
+ "name": "Zither 0%", "children": []},{
+ "name": "Echo 0%", "children": []},{
+ "name": "Raindrop 0%", "children": []},{
+ "name": "Engine knocking 0%", "children": []},{
+ "name": "Soprano saxophone 0%", "children": []},{
+ "name": "Run 0%", "children": []},{
+ "name": "Maraca 0%", "children": []},{
+ "name": "Engine starting 0%", "children": []},{
+ "name": "Dubstep 0%", "children": []},{
+ "name": "Drip 0%", "children": []},{
+ "name": "Singing bowl 0%", "children": []},{
+ "name": "Music 0%", "children": [{"name": "Musical instrument 0%"},{"name": "Music genre 0%"},{"name": "Musical concepts 0%"},{"name": "Music role 0%"},{"name": "Music mood 0%"}]},{
+ "name": "Fire 0%", "children": [{"name": "Crackle 0%"},{"name": "Wildfire 0%"}]},{
+ "name": "Writing 2.850206 %", "children": []},{
+ "name": "Ship 0%", "children": []},{
+ "name": "Sound effect 0%", "children": []},{
+ "name": "Bicycle bell 0%", "children": []},{
+ "name": "Field recording 0%", "children": []},{
+ "name": "Blare 0%", "children": []},{
+ "name": "Human sounds 0%", "children": [{"name": "Human voice 0%"},{"name": "Whistling 0%"},{"name": "Respiratory sounds 0%"},{"name": "Human locomotion 0%"},{"name": "Digestive 0%"},{"name": "Hands 0%"},{"name": "Heart sounds, heartbeat 0%"},{"name": "Otoacoustic emission 0%"},{"name": "Human group actions 0%"}]},{
+ "name": "Crack 0%", "children": []},{
+ "name": "Whistle 0%", "children": [{"name": "Kettle whistle 0%"},{"name": "Steam whistle 0%"}]},{
+ "name": "Hammer 0%", "children": []},{
+ "name": "Noise 0%", "children": [{"name": "Background noise 0%"},{"name": "Hubbub, speech noise, speech babble 0%"},{"name": "Cacophony 0%"},{"name": "White noise 0%"},{"name": "Pink noise 0%"},{"name": "Throbbing 0%"},{"name": "Vibration 0%"}]},{
+ "name": "Generic impact sounds 0%", "children": [{"name": "Bang 0%"},{"name": "Slap, smack 0%"},{"name": "Whack, thwack 0%"},{"name": "Smash, crash 0%"},{"name": "Breaking 0%"},{"name": "Bouncing 0%"},{"name": "Knock null %"},{"name": "Tap 0%"},{"name": "Thump, thud 0%"},{"name": "Whip 0%"},{"name": "Flap 0%"}]},{
+ "name": "Vibraphone 0%", "children": []},{
+ "name": "Theme music 0%", "children": []},{
+ "name": "Brass instrument 0%", "children": [{"name": "French horn 0%"},{"name": "Trumpet null %"},{"name": "Trombone 0%"},{"name": "Cornet 0%"},{"name": "Bugle 0%"}]},{
+ "name": "Water tap, faucet 0%", "children": []},{
+ "name": "Baby cry, infant cry 0%", "children": []},{
+ "name": "Bow-wow 0%", "children": []},{
+ "name": "Filing (rasp) 0%", "children": []},{
+ "name": "Mosquito 0%", "children": []},{
+ "name": "Crow 0%", "children": [{"name": "Caw 0%"}]},{
+ "name": "Kwaito 0%", "children": []},{
+ "name": "Music of Latin America 0%", "children": [{"name": "Cumbia 0%"},{"name": "Salsa music 0%"},{"name": "Soca music 0%"},{"name": "Kuduro 0%"},{"name": "Funk carioca 0%"},{"name": "Flamenco 0%"}]},{
+ "name": "Keys jangling 0%", "children": []},{
+ "name": "Howl (wind) 0%", "children": []},{
+ "name": "Salsa music 0%", "children": []},{
+ "name": "Female singing 0%", "children": []},{
+ "name": "Siren 0%", "children": [{"name": "Police car (siren) 0%"},{"name": "Ambulance (siren) 0%"},{"name": "Fire engine, fire truck (siren) 0%"},{"name": "Civil defense siren 0%"}]},{
+ "name": "Clickety-clack 0%", "children": []},{
+ "name": "Domestic animals, pets 0%", "children": [{"name": "Dog 0%"},{"name": "Cat 0%"}]},{
+ "name": "Didgeridoo 0%", "children": []},{
+ "name": "Whoosh, swoosh, swish 0%", "children": []},{
+ "name": "Music of Asia 0%", "children": [{"name": "Carnatic music 0%"},{"name": "Music of Bollywood 0%"}]},{
+ "name": "Steam whistle 0%", "children": []},{
+ "name": "Patter 0%", "children": []},{
+ "name": "Wind chime 0%", "children": []},{
+ "name": "Musical note 0%", "children": []},{
+ "name": "Disco 0%", "children": []},{
+ "name": "Drum and bass 0%", "children": [{"name": "Oldschool jungle 0%"}]},{
+ "name": "Duck call (hunting tool) 0%", "children": []},{
+ "name": "Banjo 0%", "children": []},{
+ "name": "Static 0%", "children": []},{
+ "name": "Cupboard open or close 0%", "children": []},{
+ "name": "Kettle whistle 0%", "children": []},{
+ "name": "Singing 0%", "children": [{"name": "Choir 0%"},{"name": "Yodeling 0%"},{"name": "Chant 0%"},{"name": "Male singing 0%"},{"name": "Female singing 0%"},{"name": "Child singing 0%"},{"name": "Synthetic singing 0%"},{"name": "Rapping 0%"}]},{
+ "name": "Pump (liquid) 0%", "children": []},{
+ "name": "Mantra 0%", "children": []},{
+ "name": "Cat communication 0%", "children": []},{
+ "name": "Bark 2.52296 %", "children": []},{
+ "name": "Children playing 0%", "children": []},{
+ "name": "Funk 0%", "children": []},{
+ "name": "Sewing machine 0%", "children": []},{
+ "name": "Pink noise 0%", "children": []},{
+ "name": "Cornet 0%", "children": []},{
+ "name": "Whale vocalization 0%", "children": []},{
+ "name": "Double bass 0%", "children": []},{
+ "name": "Breaking 0%", "children": []},{
+ "name": "Sanding 0%", "children": []},{
+ "name": "Alarm clock 0%", "children": []},{
+ "name": "Brief tone 0%", "children": [{"name": "Beep, bleep 0%"},{"name": "Ping 0%"},{"name": "Ding 0%"},{"name": "Clang 0%"},{"name": "Twang 0%"},{"name": "Chirp, tweet 0%"},{"name": "Buzz 0%"},{"name": "Squeak null %"},{"name": "Squeal 0%"},{"name": "Screech 0%"}]},{
+ "name": "Fly, housefly 0%", "children": [{"name": "Buzz 0%"}]},{
+ "name": "New-age music 0%", "children": []},{
+ "name": "Loop 0%", "children": []},{
+ "name": "Grime music 0%", "children": []},{
+ "name": "Effects unit 0%", "children": [{"name": "Chorus effect 0%"}]},{
+ "name": "Wood 0%", "children": [{"name": "Chop 0%"},{"name": "Splinter 0%"},{"name": "Crack 0%"},{"name": "Snap 0%"}]},{
+ "name": "Pop music 0%", "children": []},{
+ "name": "Splash, splatter 0%", "children": [{"name": "Slosh 0%"}]},{
+ "name": "Rustle 0%", "children": []},{
+ "name": "Grind 0%", "children": []},{
+ "name": "Chewing, mastication 0%", "children": []},{
+ "name": "Moo 0%", "children": []},{
+ "name": "Buzz 0%", "children": []},{
+ "name": "Dance music 0%", "children": []},{
+ "name": "Chatter 0%", "children": []},{
+ "name": "MP3 0%", "children": []},{
+ "name": "Liquid 0%", "children": [{"name": "Splash, splatter 0%"},{"name": "Squish 0%"},{"name": "Drip 0%"},{"name": "Pour 0%"},{"name": "Fill (with liquid) 0%"},{"name": "Spray 0%"},{"name": "Pump (liquid) 0%"},{"name": "Stir 0%"},{"name": "Boiling 0%"}]},{
+ "name": "Tape hiss 0%", "children": []},{
+ "name": "Swing music 0%", "children": []},{
+ "name": "Thump, thud 0%", "children": [{"name": "Thunk 0%"},{"name": "Clunk 0%"}]},{
+ "name": "Jazz 0%", "children": []},{
+ "name": "Speech 0%", "children": [{"name": "Male speech, man speaking 0%"},{"name": "Female speech, woman speaking 0%"},{"name": "Child speech, kid speaking 0%"},{"name": "Conversation 0%"},{"name": "Narration, monologue 0%"},{"name": "Babbling 0%"},{"name": "Speech synthesizer 0%"}]},{
+ "name": "Happy music 0%", "children": []},{
+ "name": "Chime 1.2139765 %", "children": [{"name": "Wind chime 0%"}]},{
+ "name": "Fixed-wing aircraft, airplane 0%", "children": []},{
+ "name": "Alto saxophone 0%", "children": []},{
+ "name": "Purr 0%", "children": []},{
+ "name": "Eruption 0%", "children": []},{
+ "name": "Clarinet 3.1668954 %", "children": []},{
+ "name": "Timpani 0%", "children": []},{
+ "name": "Dial tone 0%", "children": []},{
+ "name": "Zipper (clothing) 0%", "children": []},{
+ "name": "Burst, pop 0%", "children": []},{
+ "name": "Ice cream truck, ice cream van 0%", "children": []},{
+ "name": "Loudspeaker 0%", "children": []},{
+ "name": "Crowing, cock-a-doodle-doo 0%", "children": []},{
+ "name": "Flute 3.1668954 %", "children": []},{
+ "name": "Cricket 0%", "children": []},{
+ "name": "Snort (horse) 0%", "children": []},{
+ "name": "Boom 0%", "children": [{"name": "Sonic boom 0%"}]},{
+ "name": "Musical ensemble 0%", "children": []},{
+ "name": "Channel, environment and background 0%", "children": [{"name": "Acoustic environment 0%"},{"name": "Noise 0%"},{"name": "Sound reproduction 0%"}]},{
+ "name": "Sneeze 0%", "children": []},{
+ "name": "Goat 0%", "children": [{"name": "Bleat 0%"}]},{
+ "name": "Trumpet 3.1668954 %", "children": []},{
+ "name": "Typewriter 0%", "children": []},{
+ "name": "Clapping 0%", "children": []},{
+ "name": "Vacuum cleaner 0%", "children": []},{
+ "name": "Cymbal 0%", "children": [{"name": "Hi-hat null %"},{"name": "Crash cymbal 0%"}]},{
+ "name": "Boat, Water vehicle 0%", "children": [{"name": "Sailboat, sailing ship 0%"},{"name": "Rowboat, canoe, kayak 0%"},{"name": "Motorboat, speedboat 0%"},{"name": "Ship 0%"}]},{
+ "name": "Cattle, bovinae 0%", "children": [{"name": "Moo 0%"},{"name": "Cowbell null %"},{"name": "Yak 0%"}]},{
+ "name": "Gurgling 0%", "children": []},{
+ "name": "Hammond organ 0%", "children": []},{
+ "name": "Oboe 3.156339 %", "children": []},{
+ "name": "Yodeling 0%", "children": []},{
+ "name": "Child speech, kid speaking 0%", "children": []},{
+ "name": "Turkey 0%", "children": [{"name": "Gobble 0%"}]},{
+ "name": "Snare drum 0%", "children": [{"name": "Rimshot 0%"},{"name": "Drum roll 0%"}]},{
+ "name": "Animal 0%", "children": [{"name": "Domestic animals, pets 0%"},{"name": "Livestock, farm animals, working animals 0%"},{"name": "Wild animals 0%"}]},{
+ "name": "Child singing 0%", "children": []},{
+ "name": "Country 0%", "children": [{"name": "Swing music 0%"},{"name": "Bluegrass 0%"}]},{
+ "name": "Wind noise (microphone) 0%", "children": []},{
+ "name": "Basketball bounce 0%", "children": []},{
+ "name": "Reverberation 0%", "children": []},{
+ "name": "Oldschool jungle 0%", "children": []},{
+ "name": "Opera 0%", "children": []},{
+ "name": "Yip 0%", "children": []},{
+ "name": "Afrobeat 0%", "children": []},{
+ "name": "Fizz 0%", "children": []},{
+ "name": "Rodents, rats, mice 0%", "children": [{"name": "Mouse 0%"},{"name": "Chipmunk 0%"},{"name": "Patter 0%"}]},{
+ "name": "Glass 0%", "children": [{"name": "Chink, clink 0%"},{"name": "Shatter null %"}]},{
+ "name": "Guitar amplifier 0%", "children": []},{
+ "name": "Baby laughter 0%", "children": []},{
+ "name": "Stir 0%", "children": []},{
+ "name": "Hiccup 0%", "children": []},{
+ "name": "Gull, seagull 0%", "children": []},{
+ "name": "Tearing 3.1668954 %", "children": []},{
+ "name": "Pizzicato 0%", "children": []},{
+ "name": "Clang 0%", "children": []},{
+ "name": "Hi-hat 3.1668954 %", "children": []},{
+ "name": "Chink, clink 0%", "children": []},{
+ "name": "Glockenspiel 0.99229383 %", "children": []},{
+ "name": "Donkey, ass 0%", "children": []},{
+ "name": "Crash cymbal 0%", "children": []},{
+ "name": "Tire squeal 0%", "children": []},{
+ "name": "Guitar 0%", "children": [{"name": "Electric guitar 0%"},{"name": "Bass guitar 0%"},{"name": "Acoustic guitar 0%"},{"name": "Steel guitar, slide guitar 0%"},{"name": "Tapping (guitar technique) 0%"},{"name": "Strum 0%"}]},{
+ "name": "Hiss 0%", "children": []},{
+ "name": "Thunder 0%", "children": []},{
+ "name": "Owl 0%", "children": [{"name": "Hoot 0%"}]},{
+ "name": "Tabla 0%", "children": []},{
+ "name": "Grunge 0%", "children": []},{
+ "name": "Roar 0%", "children": []},{
+ "name": "Mechanical fan 0%", "children": []},{
+ "name": "Crowd 0%", "children": []},{
+ "name": "Quack 0%", "children": []},{
+ "name": "Chuckle, chortle 0%", "children": []},{
+ "name": "Radio 0%", "children": []},{
+ "name": "Tubular bells 0%", "children": []},{
+ "name": "Fire engine, fire truck (siren) 0%", "children": []},{
+ "name": "Drum kit 0%", "children": [{"name": "Drum machine 0%"}]},{
+ "name": "Silence 0%", "children": []},{
+ "name": "Accordion 0%", "children": []},{
+ "name": "Drone music 0%", "children": []},{
+ "name": "Squish 0%", "children": []},{
+ "name": "Bird vocalization, bird call, bird song 0%", "children": [{"name": "Chirp, tweet 0%"},{"name": "Squawk 0%"}]},{
+ "name": "Recording 0%", "children": [{"name": "Field recording 0%"}]},{
+ "name": "Christian music 0%", "children": [{"name": "Gospel music 0%"}]},{
+ "name": "Beep, bleep 0%", "children": []},{
+ "name": "Steelpan 0%", "children": []},{
+ "name": "Bathtub (filling or washing) 0%", "children": []},{
+ "name": "Battle cry 0%", "children": []},{
+ "name": "Tap 0%", "children": []},{
+ "name": "Boing 0%", "children": []},{
+ "name": "Creak 0%", "children": []},{
+ "name": "Marimba, xylophone 0%", "children": []},{
+ "name": "Sailboat, sailing ship 0%", "children": []},{
+ "name": "Printer 0%", "children": []},{
+ "name": "Sizzle 0%", "children": []},{
+ "name": "Chicken, rooster 0%", "children": [{"name": "Cluck 0%"},{"name": "Crowing, cock-a-doodle-doo 0%"}]},{
+ "name": "Carnatic music 0%", "children": []},{
+ "name": "Rain 0%", "children": [{"name": "Raindrop 0%"},{"name": "Rain on surface 0%"}]},{
+ "name": "Machine gun 0%", "children": []},{
+ "name": "Horse 0%", "children": [{"name": "Clip-clop 0%"},{"name": "Neigh, whinny 0%"},{"name": "Snort (horse) 0%"},{"name": "Nicker 0%"}]},{
+ "name": "Rock music 0%", "children": [{"name": "Heavy metal 0%"},{"name": "Punk rock 0%"},{"name": "Grunge 0%"},{"name": "Progressive rock 0%"},{"name": "Rock and roll 0%"},{"name": "Psychedelic rock 0%"}]},{
+ "name": "Stream 0%", "children": []},{
+ "name": "Civil defense siren 0%", "children": []},{
+ "name": "Helicopter 0%", "children": []},{
+ "name": "Typing 0%", "children": [{"name": "Typewriter 0%"},{"name": "Computer keyboard 0%"}]},{
+ "name": "Human locomotion 0%", "children": [{"name": "Run 0%"},{"name": "Shuffle 0%"},{"name": "Walk, footsteps 0%"}]},{
+ "name": "Percussion 0%", "children": [{"name": "Drum kit 0%"},{"name": "Drum 0%"},{"name": "Cymbal 0%"},{"name": "Cowbell null %"},{"name": "Wood block 0%"},{"name": "Tambourine null %"},{"name": "Rattle (instrument) 0%"},{"name": "Gong null %"},{"name": "Tubular bells 0%"},{"name": "Mallet percussion 0%"}]},{
+ "name": "Sound equipment 0%", "children": [{"name": "Microphone 0%"},{"name": "Electronic tuner 0%"},{"name": "Guitar amplifier 0%"},{"name": "Effects unit 0%"}]},{
+ "name": "Video game music 0%", "children": []},{
+ "name": "Harpsichord 0%", "children": []},{
+ "name": "Air horn, truck horn 0%", "children": []},{
+ "name": "Humming 0%", "children": []},{
+ "name": "Rattle 0%", "children": []},{
+ "name": "Shofar 0%", "children": []},{
+ "name": "Pant 0%", "children": []},{
+ "name": "Sidetone 0%", "children": []},{
+ "name": "Theremin 0%", "children": []},{
+ "name": "Flap 0%", "children": []},{
+ "name": "Car 0%", "children": [{"name": "Vehicle horn, car horn, honking 0%"},{"name": "Car alarm 0%"},{"name": "Power windows, electric windows 0%"},{"name": "Skidding 0%"},{"name": "Tire squeal 0%"},{"name": "Car passing by 0%"},{"name": "Race car, auto racing 0%"}]},{
+ "name": "Bass drum 0%", "children": []},{
+ "name": "Motor vehicle (road) 0%", "children": [{"name": "Car 0%"},{"name": "Truck 0%"},{"name": "Bus null %"},{"name": "Emergency vehicle 0%"},{"name": "Motorcycle 0%"},{"name": "Traffic noise, roadway noise 0%"}]},{
+ "name": "Cat 0%", "children": [{"name": "Purr 0%"},{"name": "Meow null %"},{"name": "Hiss 0%"},{"name": "Cat communication 0%"},{"name": "Caterwaul 0%"},{"name": "Growling 0%"}]},{
+ "name": "Caw 0%", "children": []},{
+ "name": "Mellotron 0%", "children": []},{
+ "name": "Ratchet, pawl 0%", "children": []},{
+ "name": "Gush 0%", "children": []},{
+ "name": "Soca music 0%", "children": []},{
+ "name": "Air brake 0%", "children": []},{
+ "name": "Plucked string instrument 0%", "children": [{"name": "Guitar 0%"},{"name": "Banjo 0%"},{"name": "Sitar 0%"},{"name": "Mandolin 0%"},{"name": "Zither 0%"},{"name": "Ukulele 0%"}]},{
+ "name": "Crushing 0%", "children": []},{
+ "name": "Drill 0%", "children": [{"name": "Dental drill, dentist's drill 0%"}]},{
+ "name": "Beat 0%", "children": [{"name": "Drum beat 0%"}]},{
+ "name": "Electronic tuner 0%", "children": []},{
+ "name": "Human voice 0%", "children": [{"name": "Speech 0%"},{"name": "Shout 0%"},{"name": "Screaming 0%"},{"name": "Whispering 0%"},{"name": "Laughter null %"},{"name": "Crying, sobbing 0%"},{"name": "Wail, moan 0%"},{"name": "Sigh 0%"},{"name": "Singing 0%"},{"name": "Humming 0%"},{"name": "Groan 0%"},{"name": "Grunt 0%"},{"name": "Yawn 0%"}]},{
+ "name": "Snap 0%", "children": []},{
+ "name": "Sink (filling or washing) 0%", "children": []},{
+ "name": "Rimshot 0%", "children": []},{
+ "name": "Cap gun 0%", "children": []},{
+ "name": "Angry music 0%", "children": []},{
+ "name": "Yawn 0%", "children": []},{
+ "name": "Slap, smack 0%", "children": []},{
+ "name": "Insect 0%", "children": [{"name": "Cricket 0%"},{"name": "Mosquito 0%"},{"name": "Fly, housefly 0%"},{"name": "Bee, wasp, etc. 0%"}]},{
+ "name": "Chord 0%", "children": []},{
+ "name": "Screaming 0%", "children": []},{
+ "name": "Bass (instrument role) 0%", "children": []},{
+ "name": "Fusillade 0%", "children": []},{
+ "name": "Trap music 0%", "children": []},{
+ "name": "Ringing (of resonator) 0%", "children": []},{
+ "name": "Car passing by 0%", "children": []},{
+ "name": "Children shouting 0%", "children": []},{
+ "name": "Techno 0%", "children": []},{
+ "name": "Frog 0%", "children": [{"name": "Croak 0%"}]},{
+ "name": "Drum 0%", "children": [{"name": "Snare drum 0%"},{"name": "Bass drum 0%"},{"name": "Timpani 0%"},{"name": "Tabla 0%"}]},{
+ "name": "Pulse 0%", "children": []},{
+ "name": "Emergency vehicle 0%", "children": [{"name": "Police car (siren) 0%"},{"name": "Ambulance (siren) 0%"},{"name": "Fire engine, fire truck (siren) 0%"}]},{
+ "name": "Rustling leaves 0%", "children": []},{
+ "name": "Door 0%", "children": [{"name": "Doorbell 0%"},{"name": "Sliding door 0%"},{"name": "Slam 0%"},{"name": "Knock null %"},{"name": "Tap 0%"},{"name": "Squeak null %"}]},{
+ "name": "Cough 2.5651853 %", "children": [{"name": "Throat clearing 0%"}]},{
+ "name": "Groan 0%", "children": []},{
+ "name": "Motorboat, speedboat 0%", "children": []},{
+ "name": "Mallet percussion 0%", "children": [{"name": "Marimba, xylophone 0%"},{"name": "Glockenspiel null %"},{"name": "Vibraphone 0%"},{"name": "Steelpan 0%"}]},{
+ "name": "Whip 0%", "children": []},{
+ "name": "Whir 0%", "children": []},{
+ "name": "Gospel music 0%", "children": []},{
+ "name": "Bay 0%", "children": []},{
+ "name": "Electro 0%", "children": []},{
+ "name": "Music for children 0%", "children": []}]}
