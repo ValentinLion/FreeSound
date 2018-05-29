@@ -18,28 +18,6 @@ def get_fft(name, path, rate):
 
     return pd.Series([0] * ((n_fft / 2) + 1))
 
-def get_mfcc(name, path, rate):
-    n_mfcc = 20
-
-    file, _ = librosa.core.load(path + name, sr=rate)
-
-    if (len(file) != 0):
-        mfcc = librosa.feature.mfcc(file, sr=rate, n_mfcc=n_mfcc)
-        ft2 = librosa.feature.zero_crossing_rate(file)[0]
-        ft3 = librosa.feature.spectral_rolloff(file)[0]
-        ft4 = librosa.feature.spectral_centroid(file)[0]
-        ft5 = librosa.feature.spectral_contrast(file)[0]
-        ft6 = librosa.feature.spectral_bandwidth(file)[0]
-        ft1_trunc = np.hstack((np.mean(mfcc, axis=1), np.std(mfcc, axis=1)))
-        ft2_trunc = np.hstack((np.mean(ft2), np.std(ft2)))
-        ft3_trunc = np.hstack((np.mean(ft3), np.std(ft3)))
-        ft4_trunc = np.hstack((np.mean(ft4), np.std(ft4)))
-        ft5_trunc = np.hstack((np.mean(ft5), np.std(ft5)))
-        ft6_trunc = np.hstack((np.mean(ft6), np.std(ft6)))
-        return pd.Series(np.hstack((ft1_trunc, ft2_trunc, ft3_trunc, ft4_trunc, ft5_trunc, ft6_trunc)))
-
-    return pd.Series([0] * n_mfcc+5 *2)
-
 
 def get_mfcc(file, rate, n_mfcc):
     try:
@@ -50,6 +28,51 @@ def get_mfcc(file, rate, n_mfcc):
     except:
         return pd.Series([0] * 80)
 
+def get_zero_crossing(file):
+    try:
+        ft = librosa.feature.zero_crossing_rate(file)[0]
+        ft_trunc = np.hstack((np.mean(ft), np.std(ft)))
+        return ft_trunc
+
+    except:
+        return pd.Series([0] * 8)
+
+def get_spectral_rolloff(file):
+    try:
+        ft = librosa.feature.spectral_rolloff(file)[0]
+        ft_trunc = np.hstack((np.mean(ft), np.std(ft)))
+        return ft_trunc
+
+    except:
+        return pd.Series([0] * 8)
+
+def get_spectral_centroid(file):
+    try:
+        ft = librosa.feature.spectral_centroid(file)[0]
+        ft_trunc = np.hstack((np.mean(ft), np.std(ft)))
+        return ft_trunc
+
+    except:
+        return pd.Series([0] * 8)
+
+def get_spectral_contrast(file):
+    try:
+        ft = librosa.feature.spectral_contrast(file)[0]
+        ft_trunc = np.hstack((np.mean(ft), np.std(ft)))
+        return ft_trunc
+
+    except:
+        return pd.Series([0] * 8)
+
+
+def get_spectral_bandwidth(file):
+    try:
+        ft = librosa.feature.spectral_bandwidth(file)[0]
+        ft_trunc = np.hstack((np.mean(ft), np.std(ft)))
+        return ft_trunc
+
+    except:
+        return pd.Series([0] * 8)
 
 def get_features(name, path, rate):
     n_mfcc = 20
@@ -57,11 +80,13 @@ def get_features(name, path, rate):
     file, _ = librosa.core.load(path + name, sr=rate)
 
     ft1 = get_mfcc(file, rate, n_mfcc)
-    ft2 =
-    ft3 =
-    ft4 =
+    ft2 = get_zero_crossing(file)
+    ft3 = get_spectral_centroid(file)
+    ft4 = get_spectral_contrast(file)
+    ft5 = get_spectral_bandwidth(file)
+    ft6 = get_spectral_rolloff(file)
 
-    return pd.Series(np.hstack(ft1))
+    return pd.Series(np.hstack(ft1, ft2, ft3, ft4, ft5, ft6))
 
 
 def apply_audio_analys(df, path, rate):
