@@ -31,7 +31,7 @@ def description(df_training):
     print(tab_missing_data)
 
     # Manually Verified
-    data_manually_verified = df_training["manually_verified"].value_counts();
+    data_manually_verified = df_training["manually_verified"].value_counts()
     labels_manually_verified = data_manually_verified.index
 
     plt.pie(data_manually_verified, labels=labels_manually_verified, startangle=90, autopct='%.1f%%')

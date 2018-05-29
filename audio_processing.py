@@ -57,9 +57,6 @@ def get_features(name, path, rate):
     file, _ = librosa.core.load(path + name, sr=rate)
 
     ft1 = get_mfcc(file, rate, n_mfcc)
-    ft2 =
-    ft3 =
-    ft4 =
 
     return pd.Series(np.hstack(ft1))
 
