@@ -86,7 +86,7 @@ def get_features(name, path, rate):
     ft5 = get_spectral_bandwidth(file)
     ft6 = get_spectral_rolloff(file)
 
-    return pd.Series(np.hstack(ft1, ft2, ft3, ft4, ft5, ft6))
+    return pd.Series(np.hstack((ft1, ft2, ft3, ft4, ft5, ft6)))
 
 
 def apply_audio_analys(df, path, rate):
