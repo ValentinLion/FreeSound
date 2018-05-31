@@ -4,6 +4,7 @@
 import pandas as pd
 
 import audio_processing
+import description
 import evaluation
 
 useAudioAnalysCSV = True
@@ -12,7 +13,7 @@ rate = 44100
 path_audio_train = "/home/valentin/Téléchargements/audio_train/"
 path_audio_test = "/home/valentin/Téléchargements/audio_test/"
 
-# description.description(pd.read_csv("csv/train.csv", sep=","))
+description.description(pd.read_csv("csv/train.csv", sep=","))
 
 if (useAudioAnalysCSV):
     df_dataframe = pd.read_csv("csv/train_analys_all.csv", sep=",", index_col=False)

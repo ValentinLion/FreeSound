@@ -5,6 +5,7 @@ import pandas as pd
 from sklearn import svm
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.externals import joblib
 from sklearn.grid_search import GridSearchCV
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
@@ -89,6 +90,8 @@ def classify(X, y, test_data, i2c, classifier):
 def getPredictions(classifier, X, y, test_data, i2c):
     classifier = classifier.fit(X, y)
 
+    joblib.dump(classifier, 'classifier.pkl')
+
     return probaToLabels(classifier.predict_proba(test_data.drop('label', axis=1).values), i2c, k=3)
 
 
@@ -136,7 +139,7 @@ def transformLabel(train_data):
 
 def seeError(classifier, X_test, y_test, i2c, fname_test):
     y_predict = probaToLabels(classifier.predict_proba(X_test), i2c, k=3)
-    y = classifier.predict_proba(X_test)
+    # y = classifier.predict_proba(X_test)
 
     # import csv
     #
