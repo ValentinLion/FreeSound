@@ -95,14 +95,13 @@ def get_features(name, path, rate):
         min = np.min(file)
         max = np.max(file)
         std = np.std(file)
-        length = len(file)
         rms = np.sqrt(np.mean(file ** 2))
         skewness = skew(file)
         kurt = kurtosis(file)
 
-        ft0 = pd.Series(np.hstack((mean, min, max, std, length, rms, skewness, kurt)))
+        ft0 = pd.Series(np.hstack((mean, min, max, std, rms, skewness, kurt)))
     except:
-        ft0 = pd.Series([0] * 8)
+        ft0 = pd.Series([0] * 7)
 
     ft1 = get_mfcc(file, rate, n_mfcc)
     ft2 = get_zero_crossing(file)
