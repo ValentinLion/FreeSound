@@ -153,18 +153,10 @@ def seeError(classifier, X_test, y_test, i2c, fname_test):
     df_error["correct_answer"] = idToLabel(y_test, i2c)
     df_error["answer"] = y_predict
 
-    # df_error = df_error.drop(df_error[df_error.correct_answer in df_error.answer].index)
-
     for index, ligne in enumerate(df_error["correct_answer"]):
         if (ligne in df_error["answer"][index]):
             df_error = df_error.drop([index])
 
-    #     if (ligne == 0):
-    #         df_error = df_error.drop([index])
-    #
-    # df_error["correct_answer"] = idToLabel(df_error["correct_answer"], i2c)
-    # df_error["answer"] = idToLabel(df_error["answer"], i2c)
-    # df_error = df_error.drop(["diff"], axis=1)
 
     score = 1 - (df_error.shape[0] / fname_test.shape[0])
 
